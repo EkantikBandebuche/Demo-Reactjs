@@ -1,35 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+<html>
+<body style="background-color:powderblue;">
 
-function App() {
-  const [count, setCount] = useState(0)
+<h2>The href Attribute</h2>
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <h2>
-          I fuck you DevOps and Docker......!!!!!!!
-        </h2>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+<p>HTML links are defined with the a tag. The link address is specified in the href attribute:</p>
 
-export default App
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+</body>
+</html>
